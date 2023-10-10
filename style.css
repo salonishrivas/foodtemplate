@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    height: 70px;
+}
+
+.navList {
+    display: flex;
+
+}
+
+.navList li {
+    list-style-type: none;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 10px;
+
+}
+
+.navList li a {
+    text-decoration: none;
+}
+
+.box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.info h1 {
+    padding: 30px;
+    font-size: 62px;
+    font-family: 'Raleway', sans-serif;
+    word-wrap: break-word;
+    width: 552px;
+
+
+}
+
+.info p {
+    padding: 20px 30px;
+    width: 530px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    word-wrap: break-word;
+
+}
+
+.main {
+    display: flex;
+}
+
+.btn {
+    width: 220px;
+    padding: 15px;
+    background-color: #e2781a;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
+    margin: 23px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #e2781a;
+
+}
+
+
+/*                         section2                           */
+.container {
+    background: #e2781a;
+    padding: 30px;
+}
+
+
+.container h1 {
+    padding: 28px;
+    text-align: center;
+    font-size: 58px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    margin: 20px auto;
+    width: 59%;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 70px;
+
+}
+
+.content img {
+    height: 300px;
+    width: 100%;
+
+}
+
+.content {
+    text-align: center;
+    color: rgb(40, 40, 40);
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin: 15px;
+    padding-bottom: 33px;
+    width: 380px;
+}
+
+.content h2 {
+    margin: 26px;
+}
+
+.content p {
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    font-style: italic;
+}
+
+
+.content h3 {
+    color: #e2781a;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+
+.order {
+    background-image: url('imgs/bghover.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.orderBy {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    background: rgba(0, 0, 0, .5) !important;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.orderBy h2 {
+    margin: 40px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.orderBy p {
+    margin: 33px 0 0;
+    width: 770px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.button {
+    width: 200px;
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.064);
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid white;
+    margin: 40px 20px;
+
+}
+
+.newButton {
+    width: 200px;
+    padding: 20px;
+    background-color: #e2781a;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
+    float: left;
+    margin-top: 42px;
+    cursor: pointer;
+    /* margin-right: 20px; */
+
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000000;
+
+}
+
+.newButton:hover {
+    background-color: #bc6214;
+    color: #ffffff;
+
+}
+
+/*   ------------carousel section css----------------- */
+
+._slider {
+    /* width: 10px !important; */
+    height: 290px !important;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    width: 425px !important;
+}
+
+.owl-theme .owl-nav {
+    display: none !important;
+}
+
+/* ------------------------------------------------ */
+
+.details h1 {
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 80px;
+}
+
+.Baking {
+    display: flex;
+    width: 300px;
+    padding: 10px;
+}
+
+.Baking h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.Baking p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px;
+}
+
+.Baking img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.bakeItems {
+    padding: 22px;
+
+}
+
+.parentBaking {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 280px 76px;
+
+    /* padding: 100px; */
+    width: 990px;
+
+}
+
+
+.sweets {
+    background-image: url('imgs/bghover2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+
+}
+
+.sweetSection {
+    background: rgba(0, 0, 0, .5) !important;
+    padding: 100px;
+}
+
+.sweets h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.parentSweets {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding: 88px;
+}
+
+.sweet_box {
+    background: #ffffff;
+    padding: 8px;
+    height: 310px;
+    width: 340px;
+    /* margin: 10px; */
+
+}
+
+.sweet_box h3 {
+    color: #000000;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.sweet_box li {
+    list-style-type: none;
+    color: #000000;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.visit {
+    display: flex;
+    background: #ed740a;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.visitUs {
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+.visitUs h2 {
+    /* padding: 24px; */
+    font-size: 45px;
+    /* font-family:'Raleway',sans-serif; */
+}
+
+.visitUs h4 {
+    color: rgba(255, 255, 255, 0.44);
+    padding: 12px;
+    font-size: 24px;
+}
+
+.visitUs p {
+    padding: 8px;
+    font-size: 20px;
+    word-wrap: break-word;
+    /* width: 770px; */
+}
+
+.visitUs_box {
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+/* .parentVisit{
+    padding: 0px;
+
+} */
+
+.footer {
+    background: #000000c0;
+    color: #ede6e6;
+    font-family: 'Open Sans', sans-serif;
+    padding: 33px;
+    text-align: center;
+}
+
+
+
+
+/* -----------------------------------media queries----------------------- */
+
+
+
+@media screen and (max-width: 426px) {
+
+    .navList li {
+        list-style-type: none;
+        font-size: 18px;
+        padding: 3px 5px;
+    }
+
+    .box {
+        width: 100% !important;
+        flex-direction: row;
+
+    }
+
+    .box img {
+        width: 100% !important;
+        height: 500px;
+
+    }
+
+
+    .main {
+        display: block;
+    }
+
+    .box {
+
+        justify-content: left;
+        flex-direction: column;
+
+    }
+
+
+
+    .info h1 {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .info p {
+        font-size: 16px;
+        padding: 0;
+        width: 72%;
+        margin: 30px;
+        word-wrap: break-word;
+
+    }
+
+
+
+    .btn {
+        width: 200px;
+        margin: 30px;
+        padding: 15px;
+        text-align: center;
+    }
+
+
+
+    .container {
+        padding: 12px !important;
+    }
+
+    .container h1 {
+
+        font-size: 34px;
+
+    }
+
+    .container p {
+        font-size: 20px;
+        /* padding: 10px; */
+        width: 340px;
+
+    }
+
+    .item {
+        padding-bottom: 60px;
+    }
+
+    .orderBy h2 {
+        font-size: 34px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .orderBy p {
+        font-size: 20px;
+        padding: 20px;
+        width: 340px;
+    }
+
+    .buttonGrp {
+        width: 200px;
+        margin: 34px;
+
+    }
+
+    .button {
+        margin: 25px 0px;
+        padding: 18px 20px;
+    }
+
+
+    .details h1 {
+        padding: 50px;
+        font-size: 36px;
+
+    }
+
+    .parentBaking {
+        padding: 0px;
+        width: 0px;
+        margin: 0px;
+
+    }
+
+    .Baking {
+        padding: 24px;
+    }
+
+
+    .parentBaking p {
+        width: 230px;
+    }
+
+    .info p {
+        font-size: 16px;
+        padding: 0;
+        width: 72%;
+        margin: 30px;
+        word-wrap: break-word;
+
+    }
+
+
+    .btn {
+        width: 200px;
+        margin: 30px;
+        padding: 15px;
+        text-align: center;
+    }
+
+
+
+    .container {
+        padding: 12px !important;
+    }
+
+    .container h1 {
+
+        font-size: 34px;
+
+    }
+
+    .container p {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .item {
+        padding-bottom: 60px;
+    }
+
+    .orderBy h2 {
+        font-size: 34px;
+        padding: 20px;
+
+    }
+
+    .parentSweets {
+        width: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: block;
+    }
+
+    .sweetSection {
+        padding: 35px;
+    }
+
+    .sweet_box {
+        padding: 0;
+        width: 310px;
+        margin: 20px;
+    }
+
+    .sweets h2 {
+        font-size: 42px;
+        margin-top: 64px;
+
+    }
+
+    .visit {
+        display: block;
+    }
+
+    .visitUs {
+        width: 100%;
+        margin-bottom: 33px;
+
+
+    }
+
+    .visitUs h2 {
+        margin: 33px;
+    }
+
+    .visitUs p {
+        padding: 0;
+
+    }
+
+    .visitUs_box {
+        width: 100%;
+        /* height: auto; */
+    }
+
+
+    /* ._slider{
+        /* width: 50px !important; 
+    } */
+
+}
